@@ -1,5 +1,5 @@
-category: Audio KDE
-requires: libtag-extras0 libkdecore5-devel libQtCore4-devel libtag-devel
+category: Audio
+requires: libtag-extras1 libtag-devel
 external-source: taglib-extras
 sdesc: "Additional TagLib plugin library (development)"
 ldesc: "Additional TagLib plugins from the AmaroK project."

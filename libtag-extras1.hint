@@ -1,5 +1,5 @@
-category: Audio KDE
-requires: libgcc1 libkdecore5 libQtCore4 libstdc++6 libtag1
+category: Audio
+requires: libgcc1 libstdc++6 libtag1
 external-source: taglib-extras
 sdesc: "Additional TagLib plugin library (runtime)"
 ldesc: "Additional TagLib plugins from the AmaroK project."

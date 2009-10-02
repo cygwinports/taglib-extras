@@ -1,11 +1,9 @@
-inherit kde4
+inherit cmake
 
 DESCRIPTION="Additional TagLib plugins from AmaroK"
 HOMEPAGE="http://amarok.kde.org/"
 SRC_URI="http://www.kollide.net/~jefferai/${P}.tar.gz"
 
-PKG_NAMES="${PN} libtag-extras0 libtag-extras-devel"
-libtag_extras0_CONTENTS="usr/bin/cygtag-extras-0.dll usr/share/doc/"
+PKG_NAMES="${PN} libtag-extras1 libtag-extras-devel"
+libtag_extras1_CONTENTS="usr/bin/cygtag-extras-1.dll usr/share/doc/"
 libtag_extras_devel_CONTENTS="usr/bin/*-config usr/include/ usr/lib/"
-
-CYGCMAKE_ARGS="-DWITH_KDE=ON"

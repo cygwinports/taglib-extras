@@ -3,12 +3,10 @@ taglib-extras
 Additional TagLib plugins from the AmaroK project.
 
 Runtime requirements:
-  cygwin-1.7.0-50
+  cygwin-1.7.0-61
   libgcc1-4.3.2-2
-  libkdecore5-4.2.4-1
-  libQtCore4-4.5.2-1
   libstdc++6-4.3.2-2
-  libtag1-1.5-10
+  libtag1-1.6-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -30,20 +28,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack taglib-extras-0.1.6-X-src.tar.bz2
+  unpack taglib-extras-1.0.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./taglib-extras-0.1.6-X.cygport all
+  cygport ./taglib-extras-1.0.1-X.cygport all
 
 This will create:
-  /usr/src/taglib-extras-0.1.6-X-src.tar.bz2
-  /usr/src/libtag-extras-devel-0.1.6-X.tar.bz2
-  /usr/src/libtag-extras0-0.1.6-X.tar.bz2
+  /usr/src/taglib-extras-1.0.1-X-src.tar.bz2
+  /usr/src/libtag-extras-devel-1.0.1-X.tar.bz2
+  /usr/src/libtag-extras1-1.0.1-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 1.0.1-1 -----
+Version bump.
 
 ----- version 0.1.6-1 -----
 Initial release for Cygwin 1.7.
