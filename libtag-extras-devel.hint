@@ -1,5 +1,0 @@
-category: Audio
-requires: libtag-extras1 libtag-devel
-external-source: taglib-extras
-sdesc: "Additional TagLib plugin library (development)"
-ldesc: "Additional TagLib plugins from the AmaroK project."
